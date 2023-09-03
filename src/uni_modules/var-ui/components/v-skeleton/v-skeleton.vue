@@ -5,7 +5,7 @@
       <!-- avatar -->
       <view
         v-if="avatar"
-        class="v-skeleton__row-animation"
+        :class="[bem.b('avatar'),'v-skeleton__row-animation']"
         style="
           overflow: hidden;
           position: relative;
@@ -42,7 +42,7 @@
 </template>
 
 <script setup lang="ts">
-import { CSSProperties, computed, watch } from "vue";
+import { CSSProperties, computed } from "vue";
 import { createNamespace } from "../../lib/utils/create";
 import { skeletonProps } from "./v-skeleton";
 const bem = createNamespace("skeleton");
