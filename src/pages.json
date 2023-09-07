@@ -361,6 +361,13 @@
             "navigationBarTitleText": "骨架屏",
             "enablePullDownRefresh": false
           }
+        },
+        {
+          "path": "badge",
+          "style": {
+            "navigationBarTitleText": "徽标数",
+            "enablePullDownRefresh": false
+          }
         }
       ]
     },

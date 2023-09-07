@@ -275,6 +275,12 @@ export default {
           page: "/pages/show/skeleton",
           title: "skeleton 骨架屏",
         },
+        {
+          icon: "icon-ellipse",
+          iconColor: "white",
+          page: "/pages/show/badge",
+          title: "badge 徽标数",
+        },
       ],
       feedback: [
         {
